@@ -1,6 +1,19 @@
 {
+  "name": "dopelganga-rpc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "echo 'no linter configured'"
+  },
   "dependencies": {
     "@types/node": "^24.5.2",
     "next": "^15.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.13",
+    "typescript": "5.9.2"
   }
 }
