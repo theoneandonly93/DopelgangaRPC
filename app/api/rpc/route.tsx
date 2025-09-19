@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
-const QN = process.env.QUICKNODE_HTTP ?? ""; // e.g. https://...quiknode.pro/<key>/
-const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN ?? "*"; // e.g. https://dopelganga.com
+const QN = process.env.QUICKNODE_HTTP ?? "https://tiniest-few-patron.solana-mainnet.quiknode.pro/6006d42ab7ce4dac6a265fdbf87f6586c73827a9/"; // e.g. https://...quiknode.pro/<key>/
+const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN ?? "dopelgangachain.xyz"; // e.g. https://dopelganga.com
 
 function corsHeaders() {
   return {
